@@ -1,0 +1,124 @@
+body{
+    background:url(images/bg.jpg);
+    background-repeat: no-repeat;
+    font-family: candara;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.progess-container{
+    display: flex;
+    padding: 20px;
+    border-radius: 30px;
+    border:3px solid white;
+    width:400px;
+    gap:2rem;
+}
+#stats{
+    display: flex;
+    background-color: rgb(63, 90, 63);
+    width: 140px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: aliceblue;
+    font-size: 30px;
+}
+.progress-bar{
+    width:100%;
+    background-color: rgb(143, 165, 143);
+    border-radius: 20px;
+}
+.heading{
+    width: 100%;
+    font-size: 25px;
+    color: rgb(30, 37, 30) ;
+}
+#progress{
+    transition: 0.6s ease;
+    border: 7px solid rgb(54, 77, 54);
+    border-radius: 20px;
+    width: 0%;
+}
+form{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+#taskinput{
+    width:400px;
+    padding: 10px;
+    border-radius: 7px;
+    border : 1px;
+    background-color:rgb(248, 255, 248);
+    color: black;
+    font-size: medium;
+    outline: none;
+    margin-left: 40px;
+    border: 2px solid rgb(50, 68, 50);
+}
+.add{
+    border:1px;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    font-size: large;
+}
+.icons img{
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+.task-items{
+    width: 420px;
+    display: flex;
+    background-color:rgb(131, 170, 131);
+    margin-top: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    margin-right: 40px;
+    transition: 0.4s;
+}
+.task-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+}
+.task{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} 
+.task input{
+    width: 20px;
+    height: 20px;
+}
+.task p{
+    font-size: 20px;
+    color:aliceblue;
+}
+.task.completed p{
+    text-decoration: line-through;
+    color:darkslategray;
+}
+.d-all{
+    margin-left: 8px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: medium;
+}
+button:hover{
+    border:1px solid black;
+    transition: 0.6s;
+}
